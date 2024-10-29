@@ -1,0 +1,50 @@
+:root{
+    /*Declaração de variáveis para serem reutilizadas*/
+    --brand: #20AD96;
+    --brand-dark: #028176;        
+    --brand-light: #F3FFFD;
+    --title: #333333;
+    --text: #666666;    
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif; 
+    
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 5px 1px #EEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.container{
+    width: 1140px;
+    max-width: 1164px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}
+
+.menu a{    
+   text-decoration: none;
+   color: var(--text-dark);
+   margin-left: 40px;
+  
+}
+
+.btn{
+    padding-left: 25px;
+   padding-right: 25px;
+}
